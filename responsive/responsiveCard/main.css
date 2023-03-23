@@ -1,0 +1,30 @@
+@media screen and (min-width: 640px) {
+  .section {
+    width: 700px;
+    margin: auto;
+    background-color: #ababab;
+    display: flex;
+    gap: 20px;
+  }
+  .section1 {
+    margin-top: 20px;
+  }
+  .section img {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .section1 {
+    margin-top: 20px;
+  }
+  .section img {
+    width: 100vw;
+  }
+}
